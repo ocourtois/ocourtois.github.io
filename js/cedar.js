@@ -181,7 +181,7 @@
               { className: "header-background-container" },
               r.a.createElement("div", {
                 className: "header-background",
-                style: t.forElement("formkit_header_background"),
+                style: t.forElement("header_background"),
               })
             ),
             r.a.createElement(

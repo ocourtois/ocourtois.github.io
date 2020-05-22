@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>
+      Productver.se - Free Product Management Mentoring by Olivier Courtois
+    </title>
+
+    <meta
+      name="description"
+      content="Free product management sessions for tech enthusiasts by Olivier Courtois, Head of Product @ comet. Previously at ManoMano. More content should appear soon"
+    />
+    <meta
+      property="og:title"
+      content="Productver.se - Free Product Management Mentoring by Olivier Courtois"
+    />
+    <meta
+      property="og:description"
+      content="Free product management sessions for tech enthusiasts by Olivier Courtois, Head of Product @ comet. Previously at ManoMano. More content should appear soon"
+    />
+    <meta property="og:image" content="./img/OlivierCourtois.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <style>
+      :root {
+        --headings-font-family: Playfair Display, serif;
+        --body-font-family: Lato, sans-serif;
+        --page-background-color: #ffffff;
+        --formkit_header_background-background-color: #f9f7f5;
+        --card-background-color: #ffffff;
+        --content_background-background-image: url("https://images.unsplash.com/photo-1469980098053-382eb10ba017?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjExODA0N30&utm_source=productver.se&utm_medium=referral&utm_campaign=api-credit?fit=max&w=800");
+        --content_background-opacity: 0.6;
+        --content_background-background-color: #000000;
+        --header-color: #111;
+        --header-font-weight: 400;
+        --subheader-color: #666;
+        --form_header-color: #111;
+        --form_header-font-weight: 400;
+        --form_content-color: #666;
+        --form_content-font-size: 16px;
+        --field-font-size: 18px;
+        --field-color: #666;
+        --field-border-color: #dddddd;
+        --field-border-radius: 0px;
+        --field-font-weight: 400;
+        --button-color: #111111;
+        --button-background-color: #e6cdb4;
+        --button-border-radius: 0px;
+        --button-font-weight: 400;
+        --button-letter-spacing: 2px;
+        --disclaimer-color: #666;
+        --disclaimer-font-size: 14px;
+        --name-color: #fff;
+        --name-font-size: 20px;
+        --title-color: #aaa;
+        --title-font-size: 15px;
+        --about_label-color: #fff;
+        --about_content-color: #fff;
+        --content_header-color: #fff;
+        --content-color: #fff;
+        --copyright-color: #666;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./css/shared.css" />
+    <link rel="stylesheet" type="text/css" href="./css/cedar.css" />
+
+    <script
+      crossorigin=""
+      src="./js/react.production.min.js"
+    ></script>
+    <script
+      crossorigin=""
+      src="./js/react-dom.production.min.js"
+    ></script>
+    <script src="./js/cedar.js"></script>
+
+    <!-- <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://pages.convertkit.com/templates/favicon.ico"
+    /> -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body > .form {
+        margin: 80px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="page" style="background-color: #ffffff;">
+        <div class="container">
+          <header>
+            <div class="header-accent" style="background-color: #111;"></div>
+            <div class="header-background-container">
+              <div
+                class="header-background"
+                style="background-color: #f9f7f5;"
+              ></div>
+            </div>
+            <div class="header-container">
+              <div class="header">
+                <div
+                  class="heading heading-primary"
+                  style="color: #111; font-weight: 400;"
+                >
+                  <h1>Free Product Management Mentoring</h1>
+                </div>
+                <div class="subheader" style="color: #666;">
+                  <h2>
+                    Hey 👋, I'm Olivier, Head of Product @
+                    <a
+                      href="https://www.comet.co/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >comet</a
+                    >. If you already know us, you know we are all about
+                    transparency, and giving back to the community.
+                    <br />​<br />Using this platform, I'm offering free
+                    mentoring sessions. First come, first serve. In French and
+                    in English.
+                  </h2>
+                </div>
+              </div>
+              <div class="card" style="background-color: #ffffff;">
+                <!-- Begin Mailchimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                  <div
+                  class="heading heading-tertiary"
+                  style="color: #111; font-weight: 400;"
+                >
+                  <h2>Be the first to know</h2>
+                </div>
+                <div
+                  class="form-content"
+                  style="color: #666; font-size: 16px;"
+                >
+                  <p>I'll send you an mail with all the instructions 👇</p>
+                </div>
+                <form action="https://productver.us18.list-manage.com/subscribe/post?u=035cd8859083909dc7116b0cb&amp;id=001be49e30" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                      <div class="fields">
+                          <div class="mc-field-group field">
+                            
+                          </label>
+                            <input type="email" value="" name="EMAIL" class="required email input" id="mce-EMAIL" style="
+                            font-size: 18px;
+                            color: #666;
+                            border-color: #dddddd;
+                            border-radius: 0;
+                            font-weight: 400;
+                          "
+                          placeholder="Your email address*"
+                          required="">
+                          </div>
+                          <div class="mc-field-group field">
+                            
+                            <input type="text" value="" name="FNAME" class="input" id="mce-FNAME" style="
+                            font-size: 18px;
+                            color: #666;
+                            border-color: #dddddd;
+                            border-radius: 0;
+                            font-weight: 400;
+                          "
+                          placeholder="Your first name"
+                          required="">
+                          </div>
+                          <div class="mc-field-group field">
+                            
+                            <input type="text" value="" name="LNAME" class="input" id="mce-LNAME" style="
+                            font-size: 18px;
+                            color: #666;
+                            border-color: #dddddd;
+                            border-radius: 0;
+                            font-weight: 400;
+                          "
+                          placeholder="Your last name"
+                          required="">
+                          </div>
+                            <div id="mce-responses" class="clear">
+                              <div class="response" id="mce-error-response" style="display:none"></div>
+                              <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_035cd8859083909dc7116b0cb_001be49e30" tabindex="-1" value=""></div>
+                            <!-- <div class="clear">
+                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button submit"
+                              style="
+                                color: #111111;
+                                background-color: #e6cdb4;
+                                border-radius: 0;
+                                font-weight: 400;
+                                letter-spacing: 2px;
+                              ">
+                              </div> -->
+                              <button
+                                type="submit"
+                                class="button submit"
+                                value="Subscribe" 
+                                name="subscribe"
+                                id="mc-embedded-subscribe"
+                                style="
+                                  color: #111111;
+                                  background-color: #e6cdb4;
+                                  border-radius: 0;
+                                  font-weight: 400;
+                                  letter-spacing: 2px;
+                                "
+                            >
+                              <div class="spinner">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                              </div>
+                              <span>Subscribe</span>
+                            </button>
+                              <div
+                              class="disclaimer"
+                              style="color: #666; font-size: 14px;"
+                            >
+                              <p>No spam, I promise.</p>
+                            </div>
+                        </div>
+                      </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+                
+                
+              <!-- <div class="card" style="background-color: #ffffff;">
+                <div
+                  class="heading heading-tertiary"
+                  style="color: #111; font-weight: 400;"
+                >
+                  <h2>Be the first to know</h2>
+                </div>
+                <div
+                  class="form-content"
+                  style="color: #666; font-size: 16px;"
+                >
+                  <p>I'll send you an mail with all the instructions 👇</p>
+                </div>
+                <form
+                  method="POST"
+                  action="https://app.convertkit.com/forms/1391724/subscriptions"
+                  data-sv-form="1391724"
+                  data-uid="884154fe8c"
+                  class="form"
+                >
+                  <ul
+                    class="alert alert-error"
+                    data-element="errors"
+                    data-group="alert"
+                  ></ul>
+                  <div class="fields">
+                    <div class="field">
+                      <input
+                        type="text"
+                        class="input"
+                        name="email_address"
+                        style="
+                          font-size: 18px;
+                          color: #666;
+                          border-color: #dddddd;
+                          border-radius: 0;
+                          font-weight: 400;
+                        "
+                        placeholder="Your email address"
+                        required=""
+                      />
+                    </div>
+                    <button
+                      class="submit"
+                      style="
+                        color: #111111;
+                        background-color: #e6cdb4;
+                        border-radius: 0;
+                        font-weight: 400;
+                        letter-spacing: 2px;
+                      "
+                      data-element="submit"
+                    >
+                      <div class="spinner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </div>
+                      <span>Subscribe</span>
+                    </button>
+                  </div>
+                </form>
+                <div
+                  class="disclaimer"
+                  style="color: #666; font-size: 14px;"
+                >
+                  <p>No spam, I promise.</p>
+                </div>
+              </div> -->
+            </div>
+              
+            </div>
+          </header>
+          <div class="main-container">
+            <div
+              class="main-background"
+              style="background-color: #000000;"
+            ></div>
+            <div
+              class="main-background"
+              style="
+                background-image: url(&#39;https://images.unsplash.com/photo-1469980098053-382eb10ba017?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjExODA0N30&amp;utm_source=convertkit&amp;utm_medium=referral&amp;utm_campaign=api-credit?fit=max&amp;w=800&#39;);
+                opacity: 0.6;
+                background-color: #000000;
+              "
+            ></div>
+            <div class="main">
+              <div class="author">
+                <div class="image avatar">
+                  <img
+                    src="./Productver.se - Free Product Management Mentoring_files/bwk8Xay8JQ9zLhfzX47YxT"
+                    style="max-width: 100%;"
+                  />
+                </div>
+                <div class="author-bio">
+                  <div class="name" style="color: #fff; font-size: 20px;">
+                    <p>​</p>
+                  </div>
+                  <div class="title" style="color: #aaa; font-size: 15px;">
+                    <p>​</p>
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <div class="heading heading-secondary" style="color: #fff;">
+                    <h3>Who am I?</h3>
+                  </div>
+                  <div class="content" style="color: #fff;">
+                    <p>
+                      <span style="color: #ffffff;"
+                        >I'm Olivier Courtois, Head of Product @ </span
+                      ><a
+                        href="https://www.comet.co/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><span style="color: #ffffff;">comet</span></a
+                      ><span style="color: #ffffff;"
+                        >. Previously @ ManoMano. I've been building products
+                        for 10 years. I started as a Developer, then I worked as
+                        a UX Designer &amp; made it to Product Management. </span
+                      ><em><span style="color: #ffffff;">Find me on</span></em
+                      ><span style="color: #ffffff;"> </span
+                      ><a
+                        href="https://www.linkedin.com/in/ocourtois/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><span style="color: #ffffff;">LinkedIn</span></a
+                      ><span style="color: #ffffff;"> • </span
+                      ><a
+                        href="https://twitter.com/ocourtois"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><span style="color: #ffffff;">Twitter</span></a
+                      ><span style="color: #ffffff;">​</span>
+                    </p>
+                    <p><span style="color: #ffffff;">​</span></p>
+                    <p>
+                      <span style="color: #ffffff;">💡</span
+                      ><span style="color: #e6cdb4;"><strong>NEW</strong></span
+                      ><span style="color: #ffffff;"><strong> __</strong></span
+                      ><span style="color: #ffffff;">
+                        Watch me share my ideas &amp; the comet way in the </span
+                      ><a
+                        href="https://youtu.be/26HkTLo9Sak?t=376"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><u
+                          ><span style="color: #ffffff;"
+                            ><strong>Maestro's Webinar</strong></span
+                          ></u
+                        ></a
+                      ><span style="color: #ffffff;"><strong>. </strong></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="heading heading-secondary" style="color: #fff;">
+                    <h3>Mentoring sessions types</h3>
+                  </div>
+                  <div class="content" style="color: #fff;">
+                    <blockquote>
+                      <blockquote-line
+                        ><strong>Product Launchpad 🚀 - </strong>Ideal to
+                        prepare an interview &amp; land your first job
+                      </blockquote-line>
+                    </blockquote>
+                    <blockquote>
+                      <blockquote-line
+                        ><strong>Product Fireside 🔥</strong>- Ideal to develop
+                        your craft &amp; consider new
+                        perspectives</blockquote-line
+                      >
+                    </blockquote>
+                    <blockquote>
+                      <blockquote-line
+                        ><strong>Product Roast 👨‍🍳</strong>- Ideal to challenge
+                        new ideas (for entrepreneurs as well)</blockquote-line
+                      >
+                    </blockquote>
+                    <p>​</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright" style="color: #666;">
+            <p>© 2020 Productver.se - Olivier Courtois All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/landing-page.hydrate.js"></script>
+    <script src="./js/ck.5.js"></script>
+  </body>
+</html>

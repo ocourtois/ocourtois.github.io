@@ -407,5 +407,12 @@
         
         <!-- Important!!! In order to allow your videoask to open up on the same page when interacting with the widget, your website must use the secure https:// protocol (i.e have an SSL certificate). Otherwise, when clicking the widget, a new tab will be automatically opened in the browser.
         -->
+        <script>
+          document.forms['mc-embedded-subscribe-form'].addEventListener('submit', (event) => {
+            dataLayer.push({'event' : 'subscribedToNewsletter', 'formName' : 'Mailchimp Subscription'});
+            //console.log("submit");
+        });
+          
+        </script>
   </body>
 </html>

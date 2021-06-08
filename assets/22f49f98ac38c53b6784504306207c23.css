@@ -2112,8 +2112,7 @@ input.brz-mm-check {
   padding-top: 44px; }
 
 .brz:not(.brz-ed) .brz-mega-menu__portal {
-  z-index: 1071;
-  overflow: auto; }
+  z-index: 1071; }
 
 .brz .brz-root__container.brz-mm-page {
   position: relative;
